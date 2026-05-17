@@ -10,7 +10,7 @@ University of the Philippines Cebu · AY 2025–2026
 - **Tool:** Godot 4.6.1
 
 ## Concept / Idea
-Fishpocalypse is a first-person wave-survival game with a PSX low-poly aesthetic: a 3D world populated with 2D sprites inspired by _DOOM (1993)_ and early PlayStation visuals.
+Fishpocalypse is a 2.5D wave-survival game with a PSX low-poly aesthetic: a 3D world populated with 2D sprites inspired by _DOOM (1993)_ and early PlayStation visuals.
 
 The game loop centers on:
 - **Daytime:** Scavenge and prepare by fishing, gathering resources, setting traps, and managing inventory.
