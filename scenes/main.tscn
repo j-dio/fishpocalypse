@@ -1,0 +1,20 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/island.tscn" id="1_island"]
+[ext_resource type="PackedScene" path="res://scenes/camera_rig.tscn" id="2_camera"]
+
+[sub_resource type="Environment" id="1_env"]
+
+[node name="Main" type="Node3D"]
+
+[node name="Island" parent="." instance=ExtResource("1_island")]
+
+[node name="CameraRig" parent="." instance=ExtResource("2_camera")]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("1_env")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+rotation = Vector3(-0.7854, 0.5236, 0)
+light_energy = 1.5
+shadow_enabled = true
